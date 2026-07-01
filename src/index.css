@@ -926,14 +926,10 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
-  .service-split { grid-template-columns: 1fr; }
-  .service-split-image { height: 45vh; min-height: 350px; order: 0 !important; }
-  .service-split-content { order: 1 !important; padding: 40px 32px; }
-  .journey-block { grid-template-columns: 1fr; }
-  .journey-block-image { min-height: 350px; }
+  .service-split-image { height: 40vh; min-height: 300px; }
+  .service-split-content { padding: 40px 32px; }
+  .journey-block-image { min-height: 300px; }
   .journey-block-content { padding: 40px 32px; }
-  .journey-block:nth-child(even) .journey-block-image { order: 0; }
-  .journey-block:nth-child(even) .journey-block-content { order: 1; }
   .contact-spread { grid-template-columns: 1fr; }
   .contact-spread-form { padding: 40px 32px; }
   .contact-spread-image { min-height: 300px; }
@@ -950,10 +946,10 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   .journey-block-image img { object-position: center; }
   .contact-spread-image img { object-position: center; }
 
-  .service-split-image { height: 40vh; min-height: 300px; }
+  .service-split-image { height: 35vh; min-height: 250px; }
   .service-split-content { padding: 32px 24px; }
   .service-split-content h3 { font-size: 1.3rem; }
-  .journey-block-image { min-height: 300px; }
+  .journey-block-image { min-height: 250px; }
   .journey-block-content { padding: 32px 24px; }
   .journey-block-content h3 { font-size: 1.3rem; }
   .dest-carousel { height: 70vh; min-height: 500px; }
@@ -990,13 +986,13 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
 
   .hero { min-height: 500px; height: 100vh; max-height: 812px; }
 
-  .service-split-image { height: 35vh; min-height: 250px; }
+  .service-split-image { height: 30vh; min-height: 200px; }
   .service-split-content { padding: 28px 20px; }
   .service-split-content .service-icon { width: 48px; height: 48px; font-size: 1.6rem; margin-bottom: 14px; }
   .service-split-content h3 { font-size: 1.2rem; }
   .service-split-content p { font-size: 0.85rem; }
 
-  .journey-block-image { min-height: 250px; }
+  .journey-block-image { min-height: 200px; }
   .journey-block-content { padding: 28px 20px; }
   .journey-block-content h3 { font-size: 1.2rem; }
   .journey-block-content p { font-size: 0.82rem; }
@@ -1057,13 +1053,13 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   .container { padding: 0 16px; }
   .hero { min-height: 440px; max-height: 700px; }
 
-  .service-split-image { height: 30vh; min-height: 200px; }
+  .service-split-image { height: 25vh; min-height: 180px; }
   .service-split-content { padding: 24px 16px; }
   .service-split-content .service-icon { width: 42px; height: 42px; font-size: 1.3rem; margin-bottom: 12px; }
   .service-split-content h3 { font-size: 1.1rem; }
   .service-split-content p { font-size: 0.8rem; }
 
-  .journey-block-image { min-height: 200px; }
+  .journey-block-image { min-height: 180px; }
   .journey-block-content { padding: 24px 16px; }
   .journey-block-content h3 { font-size: 1.1rem; }
   .journey-block-content p { font-size: 0.78rem; }
