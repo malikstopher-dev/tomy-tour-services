@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 
 const ICONS = ['👔', '🤝', '🌐', '🕐']
@@ -18,6 +18,7 @@ const MOBILE_IMAGES = [
 
 function Row({ item, i, icon }) {
   const ref = useRef(null)
+  const [showModal, setShowModal] = useState(false)
 
   useEffect(() => {
     const el = ref.current
@@ -35,21 +36,49 @@ function Row({ item, i, icon }) {
     return () => observer.disconnect()
   }, [])
 
+  useEffect(() => {
+    if (showModal) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => { document.body.style.overflow = '' }
+  }, [showModal])
+
+  useEffect(() => {
+    const handler = (e) => { if (e.key === 'Escape') setShowModal(false) }
+    if (showModal) window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [showModal])
+
   return (
-    <div className={`service-split${i % 2 === 0 ? '' : ' reverse'}`} ref={ref}>
-      <div className="service-split-image">
-        <picture>
-          <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[i]} />
-          <img src={item.img} alt={item.title} loading="lazy" />
-        </picture>
-        <div className="service-veil" />
+    <>
+      <div className={`service-split${i % 2 === 0 ? '' : ' reverse'}`} ref={ref}>
+        <div className="service-split-image">
+          <picture>
+            <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[i]} />
+            <img src={item.img} alt={item.title} loading="lazy" />
+          </picture>
+          <div className="service-veil" />
+        </div>
+        <div className="service-split-content reveal">
+          <span className="service-icon">{icon}</span>
+          <h3>{item.title}</h3>
+          <p className="desc-text">{item.desc}</p>
+          <button className="read-more-btn" onClick={() => setShowModal(true)}>Read more</button>
+        </div>
       </div>
-      <div className="service-split-content reveal">
-        <span className="service-icon">{icon}</span>
-        <h3>{item.title}</h3>
-        <p>{item.desc}</p>
-      </div>
-    </div>
+
+      {showModal && (
+        <div className="read-more-overlay" onClick={() => setShowModal(false)}>
+          <div className="read-more-modal" onClick={e => e.stopPropagation()}>
+            <button className="read-more-close" onClick={() => setShowModal(false)} aria-label="Close">&times;</button>
+            <h3>{item.title}</h3>
+            <p>{item.desc}</p>
+          </div>
+        </div>
+      )}
+    </>
   )
 }
 
