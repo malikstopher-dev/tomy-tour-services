@@ -30,11 +30,14 @@ export default function Contact() {
   return (
     <div className="contact-spread" id="contact">
       <div className="contact-spread-image">
-        <img
-          src="/assets/11_TOMY_Lets_Talk_Travel.jpg"
-          alt="TOMY office consultation"
-          loading="lazy"
-        />
+        <picture>
+          <source media="(max-width: 768px)" srcSet="/11_TOMY_Mobile_Lets_Talk_Travel.jpg" />
+          <img
+            src="/assets/11_TOMY_Lets_Talk_Travel.jpg"
+            alt="TOMY office consultation"
+            loading="lazy"
+          />
+        </picture>
         <div className="veil" />
       </div>
 

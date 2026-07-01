@@ -9,6 +9,13 @@ const IMAGES = [
   '/assets/10_TOMY_24_7_Concierge_Support.jpg',
 ]
 
+const MOBILE_IMAGES = [
+  '/07_TOMY_Mobile_Global_Executive_Mobility.jpg',
+  '/08_TOMY_Mobile_White_Glove_Service.jpg',
+  '/09_TOMY_Mobile_Strategic_Partnership.jpg',
+  '/10_TOMY_Mobile_24_7_Concierge.jpg',
+]
+
 function Row({ item, i, icon }) {
   const ref = useRef(null)
 
@@ -31,7 +38,10 @@ function Row({ item, i, icon }) {
   return (
     <div className={`service-split${i % 2 === 0 ? '' : ' reverse'}`} ref={ref}>
       <div className="service-split-image">
-        <img src={item.img} alt={item.title} loading="lazy" />
+        <picture>
+          <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[i]} />
+          <img src={item.img} alt={item.title} loading="lazy" />
+        </picture>
         <div className="service-veil" />
       </div>
       <div className="service-split-content reveal">

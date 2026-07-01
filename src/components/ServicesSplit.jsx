@@ -25,7 +25,10 @@ function ServiceRow({ s, i, icon }) {
   return (
     <div className={`service-split${i % 2 === 0 ? '' : ' reverse'}`} ref={ref}>
       <div className="service-split-image">
-        <img src={s.img} alt={s.title} loading="lazy" />
+        <picture>
+          <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[i]} />
+          <img src={s.img} alt={s.title} loading="lazy" />
+        </picture>
         <div className="service-veil" />
       </div>
       <div className="service-split-content reveal">
@@ -44,6 +47,15 @@ const IMAGES = [
   '/assets/04_TOMY_Comprehensive_Travel_Insurance.jpg',
   '/assets/05_TOMY_Bespoke_International_Tours.jpg',
   '/assets/06_TOMY_Strategic_Travel_Consultation.jpg',
+]
+
+const MOBILE_IMAGES = [
+  '/01_TOMY_Mobile_Visa_Assistance.jpg',
+  '/02_TOMY_Mobile_Premium_Flight_Bookings.jpg',
+  '/03_TOMY_Mobile_Hotel_Reservations.jpg',
+  '/04_TOMY_Mobile_Travel_Insurance.jpg',
+  '/05_TOMY_Mobile_Bespoke_International_Tours.jpg',
+  '/06_TOMY_Mobile_Strategic_Travel_Consultation.jpg',
 ]
 
 export default function ServicesSplit() {

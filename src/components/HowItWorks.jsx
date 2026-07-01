@@ -8,6 +8,13 @@ const IMAGES = [
   '/assets/04_TOMY_Visa_Journey_Step_04.jpg',
 ]
 
+const MOBILE_IMAGES = [
+  '/12_TOMY_Mobile_Visa_Step01_Meet_Consultant.jpg',
+  '/13_TOMY_Mobile_Visa_Step02_Prepare_Documents.jpg',
+  '/14_TOMY_Mobile_Visa_Step03_Visa_Approved.jpg',
+  '/15_TOMY_Mobile_Visa_Step04_Airport_to_Arrival.jpg',
+]
+
 function Block({ step, index, img }) {
   const ref = useRef(null)
 
@@ -30,7 +37,10 @@ function Block({ step, index, img }) {
   return (
     <div className={`journey-block reveal reveal-d${(index % 3) + 1}`} ref={ref}>
       <div className="journey-block-image">
-        <img src={img} alt={step.title} loading="lazy" />
+        <picture>
+          <source media="(max-width: 768px)" srcSet={MOBILE_IMAGES[index]} />
+          <img src={img} alt={step.title} loading="lazy" />
+        </picture>
         <div className="veil" />
       </div>
       <div className="journey-block-content">
