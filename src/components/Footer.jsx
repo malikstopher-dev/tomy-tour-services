@@ -44,6 +44,7 @@ export default function Footer() {
       </div>
       <div className="bot">
         &copy; {new Date().getFullYear()} TOMY GLOBAL SERVICES. {t('footer.copyright')}
+        <div className="footer-credit">Website by <a href="https://stopher-malik.co.za" target="_blank" rel="noopener noreferrer">Stopher Malik</a> &amp; <a href="https://smk.stopher-malik.co.za" target="_blank" rel="noopener noreferrer">SMK Web Design</a></div>
       </div>
     </footer>
   )
