@@ -20,7 +20,8 @@
   "section": {
     "services": "Serviços",
     "destinations": "Destinos",
-    "premiumMobility": "Mobilidade Premium"
+    "premiumMobility": "Mobilidade Premium",
+    "journey": "Jornada de Visto"
   },
   "services": [
     {

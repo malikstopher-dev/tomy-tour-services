@@ -20,7 +20,8 @@
   "section": {
     "services": "Services",
     "destinations": "Destinations",
-    "premiumMobility": "Mobilité Premium"
+    "premiumMobility": "Mobilité Premium",
+    "journey": "Parcours Visa"
   },
   "services": [
     {

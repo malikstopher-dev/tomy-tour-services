@@ -34,6 +34,7 @@ export default function App() {
       <VisaServices />
       <SectionDivider labelKey="section.premiumMobility" />
       <PremiumServices />
+      <SectionDivider labelKey="section.journey" />
       <HowItWorks />
       <WhyChoose />
       <Testimonials />
