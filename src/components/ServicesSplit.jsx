@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 
-const ICONS = ['✈️', '🛩️', '🏨', '🛡️', '🌍', '💎']
+const ICONS = ['01', '02', '03', '04', '05', '06']
 
 function ServiceRow({ s, i, icon }) {
   const ref = useRef(null)
@@ -49,7 +49,7 @@ function ServiceRow({ s, i, icon }) {
           <div className="service-veil" />
         </div>
         <div className="service-split-content reveal">
-          <span className="service-icon">{icon}</span>
+          <span className="service-num">{icon}</span>
           <h3>{s.title}</h3>
           <p className="desc-text">{s.desc}</p>
           <button className="read-more-btn" onClick={() => setShowModal(true)}>Read more</button>

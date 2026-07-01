@@ -330,18 +330,21 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   opacity: 0.35;
 }
 
-.service-split-content .service-icon {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
+.service-split-content .service-num {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
-  background: var(--white);
-  border: 1px solid rgba(7,26,45,0.06);
+  width: 36px;
+  height: 36px;
+  margin-bottom: 14px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: var(--font-sans);
+  color: var(--gold);
+  border: 1.5px solid var(--gold);
   border-radius: 50%;
-  box-shadow: 0 4px 20px rgba(7,26,45,0.04);
+  letter-spacing: 0.5px;
+  background: transparent;
 }
 
 .service-split-content h3 {
@@ -914,6 +917,50 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   font-weight: 300;
 }
 
+/* ===== TESTIMONIAL MOBILE CAROUSEL ===== */
+.testi-mobile {
+  display: none;
+  position: relative;
+}
+
+.testi-mobile-card {
+  min-height: 200px;
+}
+
+.testi-mobile-card .testi-premium-card {
+  opacity: 0;
+  animation: testiFade 0.5s ease forwards;
+}
+
+@keyframes testiFade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.testi-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.testi-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  padding: 0;
+}
+
+.testi-dot.active {
+  background: var(--gold);
+  width: 28px;
+  border-radius: 4px;
+}
+
 /* ===== CONTACT: DARK FULL SPREAD ===== */
 .contact-spread {
   background: var(--navy);
@@ -1136,7 +1183,7 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
 
   .service-split-image { height: 30vh; min-height: 200px; }
   .service-split-content { padding: 28px 20px; }
-  .service-split-content .service-icon { width: 48px; height: 48px; font-size: 1.6rem; margin-bottom: 14px; }
+  .service-split-content .service-num { width: 30px; height: 30px; font-size: 0.65rem; margin-bottom: 10px; }
   .service-split-content h3 { font-size: 1.2rem; }
   .service-split-content p { font-size: 0.85rem; }
 
@@ -1174,9 +1221,10 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   .testimonials-premium { padding: 60px 0; }
   .testimonials-premium h2 { font-size: 1.5rem; }
   .testi-header { margin-bottom: 28px; }
-  .testi-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
-  .testi-premium-card { box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
-  .testi-premium-card:active { transform: scale(0.98); }
+  .testi-grid { display: none; }
+  .testi-mobile { display: block; }
+  .testi-mobile .testi-premium-card { box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+
   .testi-premium-card .t-body { padding: 20px 18px 24px; }
   .testi-premium-card blockquote { font-size: 0.8rem; }
   .testi-premium-card .t-stars { font-size: 0.65rem; }
@@ -1203,7 +1251,7 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
 
   .service-split-image { height: 25vh; min-height: 180px; }
   .service-split-content { padding: 24px 16px; }
-  .service-split-content .service-icon { width: 42px; height: 42px; font-size: 1.3rem; margin-bottom: 12px; }
+  .service-split-content .service-num { width: 28px; height: 28px; font-size: 0.6rem; margin-bottom: 8px; }
   .service-split-content h3 { font-size: 1.1rem; }
   .service-split-content p { font-size: 0.8rem; }
 
