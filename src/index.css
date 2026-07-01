@@ -1081,8 +1081,8 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
 }
 
 @media (max-width: 768px) {
-  .hero-video-bg,
   .dest-slide img { object-position: center top; }
+  .hero-video-bg { object-position: center; }
 
   .service-split-image img { object-position: center; }
   .journey-block-image img { object-position: center; }

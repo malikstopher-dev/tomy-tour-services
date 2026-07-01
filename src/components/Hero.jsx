@@ -9,6 +9,13 @@ const VIDEOS = [
   '/assets/6th.mp4',
 ]
 
+const MOBILE_VIDEOS = [
+  '/assets/mobile-hero-vids/grok-video-091cadd7-f84e-4c7a-b3cf-89df685e4016.mp4',
+  '/assets/mobile-hero-vids/grok-video-38e99800-6d8f-4a63-bd3d-55703ae5722d.mp4',
+  '/assets/mobile-hero-vids/grok-video-38e99800-6d8f-4a63-bd3d-55703ae5722d (3).mp4',
+  '/assets/mobile-hero-vids/grok-video-38e99800-6d8f-4a63-bd3d-55703ae5722d (1).mp4',
+]
+
 export default function Hero() {
   const [activeSlot, setActiveSlot] = useState(0)
   const [vidIdx, setVidIdx] = useState(0)
@@ -19,6 +26,11 @@ export default function Hero() {
     slot === activeSlot
       ? VIDEOS[vidIdx]
       : VIDEOS[(vidIdx + 1) % VIDEOS.length]
+
+  const slotMobileSrc = (slot) =>
+    slot === activeSlot
+      ? MOBILE_VIDEOS[vidIdx % MOBILE_VIDEOS.length]
+      : MOBILE_VIDEOS[(vidIdx + 1) % MOBILE_VIDEOS.length]
 
   const playVideo = useCallback((slot) => {
     videoRefs[slot]?.current?.play().catch(() => {})
@@ -67,6 +79,7 @@ export default function Hero() {
             preload="auto"
             onCanPlay={() => handleCanPlay(slot)}
           >
+            <source media="(max-width: 768px)" src={slotMobileSrc(slot)} type="video/mp4" />
             <source src={slotSrc(slot)} type="video/mp4" />
           </video>
         ))}
