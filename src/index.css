@@ -31,7 +31,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; scroll-padding-top: 80px; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; scroll-padding-top: 80px; overflow-x: hidden; }
 
 body {
   font-family: var(--font-sans);
@@ -469,12 +469,14 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 1.4s cubic-bezier(0.22,1,0.36,1);
+  transform: scale(1.04);
+  transition: opacity 1.2s cubic-bezier(0.22,1,0.36,1), transform 1.2s cubic-bezier(0.22,1,0.36,1);
   z-index: 0;
 }
 
 .dest-slide.active {
   opacity: 1;
+  transform: scale(1);
   z-index: 1;
 }
 
@@ -565,6 +567,12 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
   min-height: 500px;
   object-fit: cover;
   display: block;
+  animation: bannerZoom 12s ease-in-out infinite alternate;
+}
+
+@keyframes bannerZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
 }
 
 .full-banner .overlay {
@@ -933,8 +941,8 @@ button { cursor: pointer; font-family: inherit; border: none; outline: none; }
 }
 
 @keyframes testiFade {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .testi-dots {

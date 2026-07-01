@@ -36,6 +36,7 @@ export default function App() {
       <PremiumServices />
       <SectionDivider labelKey="section.journey" />
       <HowItWorks />
+      <SectionDivider labelKey="section.whyUs" />
       <WhyChoose />
       <Testimonials />
       <Contact />
