@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "destinations": "Destinos",
+    "howItWorks": "Como Funciona",
+    "whyUs": "Porquê Nós",
+    "contact": "Contacto",
+    "whatsapp": "WhatsApp",
+    "toggleMenu": "Abrir menu",
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "brand": {
+    "sub": "Viagens & Turismo"
+  },
+  "languages": {
+    "pt": "Português",
+    "fr": "Français",
+    "en": "English"
+  },
+  "section": {
+    "services": "Serviços",
+    "destinations": "Destinos",
+    "premiumMobility": "Mobilidade Premium"
+  },
+  "services": [
+    {
+      "title": "Assessoria Internacional de Vistos",
+      "desc": "Cuidamos de todo o processo de visto, desde o primeiro documento até ao carimbo no seu passaporte. Os nossos especialistas preparam cada formulário, organizam a documentação necessária e orientam durante as entrevistas consulares. Esteja a viajar para o Brasil, Portugal, Canadá ou qualquer país do espaço Schengen, garantimos que a sua candidatura fica completa e pronta para aprovação."
+    },
+    {
+      "title": "Reserva Premium de Voos",
+      "desc": "Garantimos os melhores lugares nas principais companhias aéreas a preços competitivos. Planeamos as rotas mais inteligentes a partir de Angola, RDC e de toda a África para destinos no mundo inteiro, reduzindo escalas e maximizando o conforto. Voos em classe executiva, conexões directas e reservas de última hora são tratados com rapidez e discrição."
+    },
+    {
+      "title": "Reserva de Hotéis Seleccionados",
+      "desc": "Cada propriedade que recomendamos é pessoalmente avaliada quanto à qualidade, localização e serviço. Desde suítes executivas nos centros financeiros de Londres a vilas privadas ao longo da costa brasileira, encontramos o alojamento ideal para o seu estilo e propósito. Também tratamos de check-in antecipado, upgrades e transfers privados."
+    },
+    {
+      "title": "Seguro de Viagem Abrangente",
+      "desc": "Os nossos planos de seguro são feitos para quem viaja com frequência e precisa de protecção real. Evacuação médica, cancelamento de viagem, perda de bagagem e responsabilidade civil estão todos cobertos com limites elevados. Ajudamos a escolher o plano certo para cada viagem para que viaje com confiança."
+    },
+    {
+      "title": "Circuitos Internacionais Exclusivos",
+      "desc": "Criamos roteiros privados que vão além do turismo convencional. Roteiros de vinho pelos vales de Portugal, itinerários de arte em Paris e Roma, e safáris exclusivos na África Austral são apenas alguns exemplos. Cada circuito é construído à volta dos seus interesses, com guias privados, transporte premium e acesso a experiências exclusivas."
+    },
+    {
+      "title": "Consultoria Estratégica de Viagem",
+      "desc": "Para clientes com necessidades complexas, oferecemos sessões individuais com os nossos consultores seniores. Estas consultas abrangem planeamento de múltiplos destinos, políticas de viagem corporativas, logística de realocação e coordenação de viagens em família. Recebe uma estratégia personalizada, um interlocutor dedicado e a confiança de que cada detalhe está tratado."
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Brasil",
+      "desc": "Do Rio ao Amazonas, tratamos do seu visto para o Brasil com precisão e agilidade.",
+      "cta": "Solicitar Visto"
+    },
+    {
+      "name": "Portugal",
+      "desc": "Lisboa, Porto, Algarve. A sua viagem a Portugal começa connosco.",
+      "cta": "Solicitar Visto"
+    },
+    {
+      "name": "Canadá",
+      "desc": "Banff, Toronto, Vancouver. O seu sonho canadiano começa aqui.",
+      "cta": "Solicitar Visto"
+    },
+    {
+      "name": "Europa Schengen",
+      "desc": "27 países, um visto. Paris, Roma, Barcelona. Simplificamos todo o processo.",
+      "cta": "Solicitar Visto"
+    },
+    {
+      "name": "Reino Unido",
+      "desc": "Os monumentos de Londres e o encanto histórico de Edimburgo, com apoio ao visto sem stress.",
+      "cta": "Solicitar Visto"
+    },
+    {
+      "name": "Suíça",
+      "desc": "Os Alpes, o Lago Lemano, Interlaken. Paisagens deslumbrantes à sua espera.",
+      "cta": "Solicitar Visto"
+    }
+  ],
+  "premium": [
+    {
+      "title": "Mobilidade Executiva Global",
+      "desc": "Gerimos viagens internacionais complexas para executivos e empresários que precisam de rapidez, discrição e precisão. Desde renovações urgentes de visto a itinerários de vários países pela Europa, Américas e África, a nossa equipa coordena cada detalhe nos bastidores."
+    },
+    {
+      "title": "Serviço de Mão Única",
+      "desc": "Cada cliente recebe um gestor de mobilidade dedicado que trata da documentação, agendamento e actualizações em tempo real do início ao fim. Atendemo-lo nos nossos escritórios em Kinshasa, Luanda ou Joanesburgo, ou vamos à sua casa ou empresa. Sem centrais de atendimento, sem respostas automáticas."
+    },
+    {
+      "title": "Rede de Parcerias Estratégicas",
+      "desc": "As nossas relações com embaixadas, companhias aéreas, grupos hoteleiros e seguradoras abrangem quatro continentes e foram construídas ao longo de anos. Negociamos tarifas e acesso prioritário que viajantes individuais não conseguem obter sozinhos, desde marcações urgentes de visto a lugares preferenciais."
+    },
+    {
+      "title": "Apoio de Concierge 24/7",
+      "desc": "As viagens não seguem horário comercial e nós também não. A nossa equipa está disponível 24 horas por dia para alterações de itinerário, assistência de emergência e pedidos urgentes de visto. Uma chamada liga a alguém que conhece o seu processo pessoalmente e pode agir de imediato."
+    }
+  ],
+  "howItWorks": {
+    "stepLabel": "Passo",
+    "steps": [
+      {
+        "title": "Conheça o Seu Consultor de Viagem",
+        "text": "Sente-se com os nossos especialistas presencialmente ou por videochamada. Ouvimos, avaliamos as suas necessidades e criamos uma estratégia de visto personalizada."
+      },
+      {
+        "title": "Nós Preparamos Tudo",
+        "text": "A nossa equipa revê cada documento, preenche cada formulário e garante que a sua candidatura cumpre os padrões exigidos, sem erros e sem atrasos."
+      },
+      {
+        "title": "Visto Aprovado e Entregue",
+        "text": "Acompanhamos a sua candidatura, tratamos das diligências e entregamos o seu passaporte aprovado. Só precisa de fazer as malas."
+      },
+      {
+        "title": "Do Aeroporto à Chegada",
+        "text": "Desde a reserva de voos ao check-in, embarque e aterragem, coordenamos cada detalhe para que a sua viagem seja tranquila do início ao fim."
+      }
+    ],
+    "bannerHeading": "Pronto para começar?",
+    "bannerText": "Envie-nos uma mensagem no WhatsApp e dê o primeiro passo para a sua próxima viagem."
+  },
+  "whyChoose": {
+    "label": "Porquê Nós",
+    "heading": "Confiado por viajantes de toda a África",
+    "subtitle": "Não processamos apenas vistos. Oferecemos tranquilidade.",
+    "stats": [
+      { "number": "15+", "label": "Países" },
+      { "number": "98%", "label": "Vistos Aprovados" },
+      { "number": "2.000+", "label": "Viajantes Satisfeitos" },
+      { "number": "24/7", "label": "Apoio" }
+    ],
+    "reasons": [
+      {
+        "title": "Especialistas de Confiança",
+        "text": "Anos de experiência em vários continentes. Conhecemos o processo de dentro para fora."
+      },
+      {
+        "title": "Serviço Completo",
+        "text": "Dos documentos à reserva de voos, gerimos cada detalhe da sua viagem."
+      },
+      {
+        "title": "Resposta Rápida",
+        "text": "Respostas no WhatsApp no mesmo dia. Sem esperas, sem burocracia."
+      },
+      {
+        "title": "Multi-Serviços",
+        "text": "Parte do TOMY GLOBAL SERVICES, um nome de confiança nos setores de viagens, tecnologia e design."
+      }
+    ]
+  },
+  "testimonials": {
+    "super": "Depoimentos",
+    "heading": "O Que Dizem os Nossos Viajantes",
+    "list": [
+      {
+        "text": "A TOMY tornou o meu visto para o Canadá muito simples. Analisaram os meus documentos e fui aprovada em duas semanas. Altamente recomendados!",
+        "name": "Chioma A.",
+        "detail": "Visto Canadá, Lagos"
+      },
+      {
+        "text": "Estava nervoso com o meu visto Schengen mas a equipa orientou-me em tudo. Da preparação dos documentos à marcação, tudo foi perfeitamente tranquilo.",
+        "name": "Michael O.",
+        "detail": "Visto Schengen, Abuja"
+      },
+      {
+        "text": "Usei a TOMY para o meu visto de Portugal e para a reserva do voo. Tudo tratado com profissionalismo. Vou voltar a usar de certeza.",
+        "name": "Adebayo K.",
+        "detail": "Visto Portugal, Porto Harcourt"
+      },
+      {
+        "text": "O serviço completo é incrível. Reservaram o meu hotel, o voo e trataram do visto. Só apareci no aeroporto.",
+        "name": "Emeka N.",
+        "detail": "Visto Reino Unido, Lagos"
+      },
+      {
+        "text": "Profissionais, rápidos e de confiança. Já recomendei a TOMY a vários amigos e todos tiveram a mesma experiência excelente.",
+        "name": "Funmi D.",
+        "detail": "Vistos Múltiplos, Ibadan"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Vamos Conversar",
+    "text": "Escolha o seu país e fale connosco no WhatsApp. A nossa equipa responde em minutos.",
+    "countryLabel": "Seleccione o seu país:",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "location": "África, Europa & Américas. A servir clientes no mundo inteiro.",
+    "response": "Resposta em minutos no WhatsApp",
+    "chatCta": "Falar no WhatsApp",
+    "comingSoon": "Em breve",
+    "countries": {
+      "rdc": "RDC / Kinshasa",
+      "angola": "Angola / Luanda",
+      "southAfrica": "África do Sul",
+      "portugal": "Portugal",
+      "brazil": "Brasil",
+      "kenya": "Quénia",
+      "canada": "Canadá"
+    }
+  },
+  "footer": {
+    "brandSub": "Global Services",
+    "description": "Serviços premium de vistos e viagens internacionais para viajantes africanos. Cuidamos da papelada, você aproveita a viagem.",
+    "servicesHeading": "Serviços",
+    "services": ["Assessoria de Vistos", "Reserva de Voos", "Reserva de Hotéis", "Seguro de Viagem"],
+    "quickLinksHeading": "Links Rápidos",
+    "quickLinks": ["O Processo", "Porquê Nós", "Contacto"],
+    "copyright": "Todos os direitos reservados."
+  },
+  "stickyWhatsApp": "Solicitar Visto no WhatsApp",
+  "visaDotAria": "Ir para"
+}

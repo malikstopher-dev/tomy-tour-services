@@ -1,0 +1,215 @@
+{
+  "nav": {
+    "services": "Services",
+    "destinations": "Destinations",
+    "howItWorks": "How It Works",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "whatsapp": "WhatsApp",
+    "toggleMenu": "Toggle menu",
+    "selectLanguage": "Select language"
+  },
+  "brand": {
+    "sub": "Travel & Tour"
+  },
+  "languages": {
+    "pt": "Português",
+    "fr": "Français",
+    "en": "English"
+  },
+  "section": {
+    "services": "Services",
+    "destinations": "Destinations",
+    "premiumMobility": "Premium Mobility"
+  },
+  "services": [
+    {
+      "title": "International Visa Assistance",
+      "desc": "We handle the entire visa journey from your first document to your passport stamp. Our specialists prepare every form, organize supporting paperwork, and guide you through embassy interviews. Whether you are heading to Brazil, Portugal, Canada, or anywhere across the Schengen area, we make sure your application is complete, accurate, and ready for approval."
+    },
+    {
+      "title": "Premium Flight Bookings",
+      "desc": "We secure premium seats on the world's leading airlines at competitive rates. Our team plans the smartest routes from Angola, DRC, and across Africa to destinations worldwide, minimizing layovers and maximizing comfort. Business class, direct connections, and last minute bookings are all handled with speed and discretion."
+    },
+    {
+      "title": "Curated Hotel Reservations",
+      "desc": "Every property we recommend is personally vetted for quality, location, and service. From executive suites in London financial districts to private villas along the Brazilian coast, we match you with accommodations that suit your style and purpose. We also arrange early check-in, room upgrades, and private transfers."
+    },
+    {
+      "title": "Comprehensive Travel Insurance",
+      "desc": "Our insurance plans are built for people who travel often and need real protection. Medical evacuation, trip cancellation, lost baggage, and personal liability are all covered with high policy limits. We help you select the right plan for each trip so you travel with confidence, not worry."
+    },
+    {
+      "title": "Bespoke International Tours",
+      "desc": "We design private itineraries that go beyond standard tourism. Wine tours through Portuguese valleys, art-focused itineraries in Paris and Rome, and exclusive safaris in Southern Africa are just a few examples. Each tour is built around your interests, with private guides, premium transport, and access that regular travellers cannot reach."
+    },
+    {
+      "title": "Strategic Travel Consultation",
+      "desc": "For clients with complex travel needs, we offer one on one sessions with our senior advisors. These consultations cover multi destination planning, corporate travel policies, long term relocation logistics, and family travel coordination. You get a tailored strategy, a dedicated point of contact, and the confidence that every detail is accounted for."
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Brazil",
+      "desc": "From Rio to the Amazon, we handle your Brazil visa with expert precision.",
+      "cta": "Apply for Visa"
+    },
+    {
+      "name": "Portugal",
+      "desc": "Lisbon, Porto, the Algarve. Your Portuguese journey begins with us.",
+      "cta": "Apply for Visa"
+    },
+    {
+      "name": "Canada",
+      "desc": "Banff, Toronto, Vancouver. Your Canadian dream starts here.",
+      "cta": "Apply for Visa"
+    },
+    {
+      "name": "Schengen Europe",
+      "desc": "27 countries, one visa. Paris, Rome, Barcelona. We simplify the whole process.",
+      "cta": "Apply for Visa"
+    },
+    {
+      "name": "United Kingdom",
+      "desc": "London's landmarks and Edinburgh's historic charm, backed by stress-free UK visa support.",
+      "cta": "Apply for Visa"
+    },
+    {
+      "name": "Switzerland",
+      "desc": "The Alps, Lake Geneva, Interlaken. Breathtaking landscapes await you.",
+      "cta": "Apply for Visa"
+    }
+  ],
+  "premium": [
+    {
+      "title": "Global Executive Mobility",
+      "desc": "We manage complex international travel for executives and business owners who need speed, discretion, and precision. From last minute visa renewals to multi country itineraries across Europe, the Americas, and Africa, our team coordinates every layer behind the scenes."
+    },
+    {
+      "title": "White Glove Service",
+      "desc": "Every client is assigned a dedicated mobility manager who handles documentation, scheduling, and real time updates from start to finish. We meet you at our offices in Kinshasa, Luanda, or Johannesburg, or we come to your home or business. No call centers, no automated replies."
+    },
+    {
+      "title": "Strategic Partnership Network",
+      "desc": "Our relationships with embassies, airlines, hotel groups, and insurance providers span four continents and have been built over many years. We negotiate rates and priority access that individual travellers cannot reach on their own, from expedited visa appointments to preferred seating."
+    },
+    {
+      "title": "24/7 Concierge Support",
+      "desc": "Travel does not follow office hours and neither do we. Our team is on call around the clock for itinerary changes, emergency assistance, and urgent visa requests that cannot wait until morning. One phone call connects you to someone who knows your file personally and can act immediately."
+    }
+  ],
+  "howItWorks": {
+    "stepLabel": "Step",
+    "steps": [
+      {
+        "title": "Meet Your Travel Consultant",
+        "text": "Sit down with our experts in-office or via video call. We listen, assess your needs, and build a personalised visa strategy."
+      },
+      {
+        "title": "We Prepare Everything",
+        "text": "Our team reviews every document, completes every form, and ensures your application meets embassy standards with no errors and no delays."
+      },
+      {
+        "title": "Visa Approved & Delivered",
+        "text": "We track your application, handle follow-ups, and hand-deliver your approved passport. You just pack your bags."
+      },
+      {
+        "title": "Airport to Arrival",
+        "text": "From flight bookings to check-in, boarding, and landing, we coordinate every detail so your journey is seamless from start to finish."
+      }
+    ],
+    "bannerHeading": "Ready to begin?",
+    "bannerText": "Send us a message on WhatsApp and take the first step toward your next journey."
+  },
+  "whyChoose": {
+    "label": "Why Choose Us",
+    "heading": "Trusted by travellers across Africa",
+    "subtitle": "We don't just process visas. We deliver peace of mind.",
+    "stats": [
+      { "number": "15+", "label": "Countries" },
+      { "number": "98%", "label": "Visa Success" },
+      { "number": "2,000+", "label": "Happy Travellers" },
+      { "number": "24/7", "label": "Support" }
+    ],
+    "reasons": [
+      {
+        "title": "Trusted Experts",
+        "text": "Years of experience across multiple continents. We know the process inside out."
+      },
+      {
+        "title": "End-to-End",
+        "text": "From documents to flight bookings, we manage every detail of your journey."
+      },
+      {
+        "title": "Fast Response",
+        "text": "Same-day replies on WhatsApp. No waiting, no bureaucracy."
+      },
+      {
+        "title": "Multi-Service",
+        "text": "Backed by TOMY GLOBAL SERVICES, a name trusted across travel, tech, and design."
+      }
+    ]
+  },
+  "testimonials": {
+    "super": "Testimonials",
+    "heading": "What Our Travellers Say",
+    "list": [
+      {
+        "text": "TOMY made my Canada visa application stress-free. They reviewed my documents and I got approved in two weeks. Highly recommended!",
+        "name": "Chioma A.",
+        "detail": "Canada Visa, Lagos"
+      },
+      {
+        "text": "I was nervous about my Schengen visa but the team walked me through everything. From document prep to appointment, the process was completely seamless.",
+        "name": "Michael O.",
+        "detail": "Schengen Visa, Abuja"
+      },
+      {
+        "text": "Used TOMY for both my Portugal visa and flight booking. Everything handled professionally. Will absolutely use them again.",
+        "name": "Adebayo K.",
+        "detail": "Portugal Visa, Port Harcourt"
+      },
+      {
+        "text": "The end-to-end service is incredible. They booked my hotel, flight, and handled my visa. I just showed up at the airport.",
+        "name": "Emeka N.",
+        "detail": "UK Visa, Lagos"
+      },
+      {
+        "text": "Professional, fast, and trustworthy. I have referred several friends to TOMY and they all had the same great experience.",
+        "name": "Funmi D.",
+        "detail": "Multiple Visas, Ibadan"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's Talk Travel",
+    "text": "Choose your country and reach out on WhatsApp. Our team responds in minutes.",
+    "countryLabel": "Select your country:",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "location": "Africa, Europe & Americas. Serving clients worldwide.",
+    "response": "Response within minutes on WhatsApp",
+    "chatCta": "Chat on WhatsApp",
+    "comingSoon": "Coming soon",
+    "countries": {
+      "rdc": "DRC / Kinshasa",
+      "angola": "Angola / Luanda",
+      "southAfrica": "South Africa",
+      "portugal": "Portugal",
+      "brazil": "Brazil",
+      "kenya": "Kenya",
+      "canada": "Canada"
+    }
+  },
+  "footer": {
+    "brandSub": "Global Services",
+    "description": "Premium visa and international travel services for African travellers. We handle the paperwork, you enjoy the journey.",
+    "servicesHeading": "Services",
+    "services": ["Visa Assistance", "Flight Bookings", "Hotel Reservations", "Travel Insurance"],
+    "quickLinksHeading": "Quick Links",
+    "quickLinks": ["The Journey", "Why Us", "Contact"],
+    "copyright": "All rights reserved."
+  },
+  "stickyWhatsApp": "Apply for Visa on WhatsApp",
+  "visaDotAria": "Go to"
+}
