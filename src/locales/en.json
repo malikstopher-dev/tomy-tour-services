@@ -210,7 +210,8 @@
     "services": ["Visa Assistance", "Flight Bookings", "Hotel Reservations", "Travel Insurance"],
     "quickLinksHeading": "Quick Links",
     "quickLinks": ["The Journey", "Why Us", "Contact"],
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "backToMain": "Back to TOMY Global Services"
   },
   "stickyWhatsApp": "Apply for Visa on WhatsApp",
   "visaDotAria": "Go to"
